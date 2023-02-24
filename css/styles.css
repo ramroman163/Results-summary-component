@@ -28,7 +28,7 @@ footer{
 .container{
     font-family: 'Hanken-Grotesk';
     width: 50%;
-    height: 65vh;
+    min-height: 55vh;
     background: hsl(0, 0%, 100%);
     border-radius: 1.25rem;
     display: flex;
@@ -45,7 +45,6 @@ footer{
     align-items: center;
     border-radius: 1.25rem;
     width: 50%;
-    height: 100%;
     background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
 }
 
@@ -175,7 +174,7 @@ button:hover{
     color: hsl(224, 30%, 27%);
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1439px) {
     .container{
         width: 65%;
     }
