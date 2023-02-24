@@ -27,12 +27,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./design/screenshot1.png)
+![](./design/screenshot-mobile.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://www.frontendmentor.io/solutions/results-summary-component-QA8IkPudYX)
+- Live Site URL: (https://euphonious-kashata-af11d5.netlify.app/)
 
 ## My process
 
