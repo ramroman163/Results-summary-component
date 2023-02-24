@@ -1,0 +1,218 @@
+@font-face {
+    font-family: 'Hanken-Grotesk';
+    src: url("../assets/fonts/HankenGrotesk-VariableFont_wght.ttf");
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background: hsl(221, 100%, 96%);
+}
+
+main{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    font-family: 'Hanken-Grotesk';
+    width: 50%;
+    height: 65vh;
+    background: hsl(0, 0%, 100%);
+    border-radius: 1.25rem;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 1px 1px 22px 1px lightgrey;
+}
+
+.container-result{
+    color: white;
+    padding: 1rem 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1.25rem;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+}
+
+.circle-result{
+    margin: 10px 0;
+    height: 170px;
+    width: 170px;
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.result{
+    text-align: center;
+    font-size: 4rem;
+    margin: 0px;
+    font-weight: 800;
+}
+
+.total{
+    margin: 0px;
+}
+
+.desc-result{
+    text-align: center;
+    padding: 0 2.5rem;
+}
+
+.light-lavender{
+    color: hsl(241, 100%, 89%);
+}
+
+.desc-result h2{
+    font-weight: 700;
+    font-size: 1.875rem;
+}
+
+.desc-result p{
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.container-summary{
+    box-sizing: border-box;
+    padding: 1rem 3.50rem;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.container-summary h2{
+    margin-bottom: 0px;
+}
+
+.skills{
+    margin: 0;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.container-skill{
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.score{
+    color: black;
+    font-weight: 800;
+}
+
+.container-skill h4, p{
+    margin: 0;
+}
+
+.align-right{
+    margin-left: auto;
+}
+
+button{
+    font-size: 0.90rem;
+    font-weight: 500;
+    color: hsl(0, 0%, 100%);
+    width: 100%;
+    padding: 15px 0px;
+    border-radius: 20px;
+    border: none;
+    background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+}
+
+button:hover{
+    cursor: pointer;
+    background: hsl(224, 30%, 27%);
+}
+
+.light-red{
+    background: hsla(0, 100%, 67%, .1);
+    color: hsl(0, 100%, 67%);
+}
+
+.orange-yellow{
+    background: hsla(39, 100%, 56%, .1);
+    color: hsl(39, 100%, 56%);
+}
+
+.green-teal{
+    background: hsla(166, 100%, 37%, .1);
+    color: hsl(166, 100%, 37%);
+}
+
+.cobalt-blue{
+    background: hsla(234, 85%, 45%, .1); 
+    color: hsl(234, 85%, 45%);
+}
+
+.dark-grey-blue{
+    color: hsl(224, 30%, 27%);
+}
+
+@media screen and (max-width: 1440px) {
+    .container{
+        width: 65%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    body{
+        font-size: 14px;
+    }
+
+    .container{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    main{
+        height: auto;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    footer{
+        min-height: 10vh;
+    }
+
+    .container-result{
+        width: 100%;
+        border-radius: 0rem 0rem 1.25rem 1.25rem;
+    }
+    
+    .container-summary{
+        width: 100%;
+        padding: 1rem 1.5rem;
+    }
+}
